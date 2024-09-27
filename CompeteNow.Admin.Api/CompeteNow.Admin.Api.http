@@ -1,0 +1,6 @@
+@CompeteNow.Admin.Api_HostAddress = http://localhost:5014
+
+GET {{CompeteNow.Admin.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

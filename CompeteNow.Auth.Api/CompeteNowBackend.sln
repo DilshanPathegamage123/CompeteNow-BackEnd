@@ -7,11 +7,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompeteNow.Auth.Api", "Comp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompeteNow.Auth", "CompeteNow.Auth", "{E9388B72-A166-4B88-94D6-FAFD3DBCA667}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompeteNow.Auth.Application", "..\CompeteNow.Auth.Application\CompeteNow.Auth.Application.csproj", "{CCA269EB-4BCC-4F6D-8D8F-B14B319A779A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompeteNow.Auth.Application", "..\CompeteNow.Auth.Application\CompeteNow.Auth.Application.csproj", "{CCA269EB-4BCC-4F6D-8D8F-B14B319A779A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompeteNow.Auth.Domain", "..\CompeteNow.Auth.Domain\CompeteNow.Auth.Domain.csproj", "{BA7ED4FB-A4A3-4EF3-8B1A-DCE41D4B1D5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompeteNow.Auth.Domain", "..\CompeteNow.Auth.Domain\CompeteNow.Auth.Domain.csproj", "{BA7ED4FB-A4A3-4EF3-8B1A-DCE41D4B1D5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompeteNow.Auth.Infrastructure", "..\CompeteNow.Auth.Infrastructure\CompeteNow.Auth.Infrastructure.csproj", "{33E0EF58-7ABA-4592-A98F-66DF552D3098}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompeteNow.Auth.Infrastructure", "..\CompeteNow.Auth.Infrastructure\CompeteNow.Auth.Infrastructure.csproj", "{33E0EF58-7ABA-4592-A98F-66DF552D3098}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompeteNow.Admin", "CompeteNow.Admin", "{910FBAB7-2DAD-4147-AEF0-0B3C514D0211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompeteNow.Admin.Api", "..\CompeteNow.Admin.Api\CompeteNow.Admin.Api.csproj", "{79E5EB0A-C36B-40A2-AF20-B190A595A60E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompeteNow.Admin.Application", "..\CompeteNow.Admin.Application\CompeteNow.Admin.Application.csproj", "{10D54733-A2CC-4201-ACDC-35F18271C678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompeteNow.Admin.Domain", "..\CompeteNow.Admin.Domain\CompeteNow.Admin.Domain.csproj", "{D1A65C6C-76BB-48A0-9BD6-A22A50A27A7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompeteNow.Admin.Infrastructure", "..\CompeteNow.Admin.Infrastructure\CompeteNow.Admin.Infrastructure.csproj", "{8AFF4053-10A4-42D0-8C10-2C035AF618DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +45,22 @@ Global
 		{33E0EF58-7ABA-4592-A98F-66DF552D3098}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33E0EF58-7ABA-4592-A98F-66DF552D3098}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33E0EF58-7ABA-4592-A98F-66DF552D3098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79E5EB0A-C36B-40A2-AF20-B190A595A60E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79E5EB0A-C36B-40A2-AF20-B190A595A60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79E5EB0A-C36B-40A2-AF20-B190A595A60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79E5EB0A-C36B-40A2-AF20-B190A595A60E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D54733-A2CC-4201-ACDC-35F18271C678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D54733-A2CC-4201-ACDC-35F18271C678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D54733-A2CC-4201-ACDC-35F18271C678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D54733-A2CC-4201-ACDC-35F18271C678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A65C6C-76BB-48A0-9BD6-A22A50A27A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A65C6C-76BB-48A0-9BD6-A22A50A27A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A65C6C-76BB-48A0-9BD6-A22A50A27A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A65C6C-76BB-48A0-9BD6-A22A50A27A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AFF4053-10A4-42D0-8C10-2C035AF618DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AFF4053-10A4-42D0-8C10-2C035AF618DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AFF4053-10A4-42D0-8C10-2C035AF618DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AFF4053-10A4-42D0-8C10-2C035AF618DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +70,10 @@ Global
 		{CCA269EB-4BCC-4F6D-8D8F-B14B319A779A} = {E9388B72-A166-4B88-94D6-FAFD3DBCA667}
 		{BA7ED4FB-A4A3-4EF3-8B1A-DCE41D4B1D5F} = {E9388B72-A166-4B88-94D6-FAFD3DBCA667}
 		{33E0EF58-7ABA-4592-A98F-66DF552D3098} = {E9388B72-A166-4B88-94D6-FAFD3DBCA667}
+		{79E5EB0A-C36B-40A2-AF20-B190A595A60E} = {910FBAB7-2DAD-4147-AEF0-0B3C514D0211}
+		{10D54733-A2CC-4201-ACDC-35F18271C678} = {910FBAB7-2DAD-4147-AEF0-0B3C514D0211}
+		{D1A65C6C-76BB-48A0-9BD6-A22A50A27A7A} = {910FBAB7-2DAD-4147-AEF0-0B3C514D0211}
+		{8AFF4053-10A4-42D0-8C10-2C035AF618DA} = {910FBAB7-2DAD-4147-AEF0-0B3C514D0211}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {666A9A41-6772-459F-97E9-F6766AF71E9A}

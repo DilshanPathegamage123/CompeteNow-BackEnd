@@ -1,7 +1,17 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "H:\\My Projects\\CompeteNow2\\CompeteNow-Backend\\CompeteNow.Auth.Api\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFF4053-10A4-42D0-8C10-2C035AF618DA}|..\\CompeteNow.Admin.Infrastructure\\CompeteNow.Admin.Infrastructure.csproj|h:\\my projects\\competenow2\\competenow-backend\\competenow.admin.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A65C6C-76BB-48A0-9BD6-A22A50A27A7A}|..\\CompeteNow.Admin.Domain\\CompeteNow.Admin.Domain.csproj|h:\\my projects\\competenow2\\competenow-backend\\competenow.admin.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10D54733-A2CC-4201-ACDC-35F18271C678}|..\\CompeteNow.Admin.Application\\CompeteNow.Admin.Application.csproj|h:\\my projects\\competenow2\\competenow-backend\\competenow.admin.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +19,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +36,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "H:\\My Projects\\CompeteNow2\\CompeteNow-Backend\\CompeteNow.Admin.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\CompeteNow.Admin.Infrastructure\\Class1.cs",
+              "ToolTip": "H:\\My Projects\\CompeteNow2\\CompeteNow-Backend\\CompeteNow.Admin.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "..\\CompeteNow.Admin.Infrastructure\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T17:15:20.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "H:\\My Projects\\CompeteNow2\\CompeteNow-Backend\\CompeteNow.Admin.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\CompeteNow.Admin.Domain\\Class1.cs",
+              "ToolTip": "H:\\My Projects\\CompeteNow2\\CompeteNow-Backend\\CompeteNow.Admin.Domain\\Class1.cs",
+              "RelativeToolTip": "..\\CompeteNow.Admin.Domain\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T17:14:40.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "H:\\My Projects\\CompeteNow2\\CompeteNow-Backend\\CompeteNow.Admin.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\CompeteNow.Admin.Application\\Class1.cs",
+              "ToolTip": "H:\\My Projects\\CompeteNow2\\CompeteNow-Backend\\CompeteNow.Admin.Application\\Class1.cs",
+              "RelativeToolTip": "..\\CompeteNow.Admin.Application\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T17:13:32.649Z",
+              "EditorCaption": ""
             }
           ]
         }
