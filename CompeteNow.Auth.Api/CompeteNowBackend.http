@@ -1,0 +1,6 @@
+@CompeteNowBackend_HostAddress = http://localhost:5243
+
+GET {{CompeteNowBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
